@@ -1,0 +1,28 @@
+{
+  "sqltools.connections": [
+    {
+      "name": "Rails Development Database",
+      "driver": "PostgreSQL",
+      "previewLimit": 50,
+      "server": "localhost",
+      "port": 5432,
+      "database": "app_development",
+      "username": "vscode"
+    },
+    {
+      "name": "Rails Test Database",
+      "driver": "PostgreSQL",
+      "previewLimit": 50,
+      "server": "localhost",
+      "port": 5432,
+      "database": "app_test",
+      "username": "vscode"
+    },
+    {
+      "previewLimit": 50,
+      "driver": "SQLite",
+      "name": "Rails Development Database",
+      "database": "/Users/rafaelfranca/lego/db/development.sqlite3"
+    }
+  ]
+}
